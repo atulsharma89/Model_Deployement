@@ -23,7 +23,7 @@ from flasgger import Swagger
 
 app = Flask(__name__, template_folder='templates')
 Swagger(app)
-with open('/Users/atul595525/Desktop/learning/Edureka_courses/Docker_ML_Flask_App/classifier_1.pkl', 'rb') as model_pkl:
+with open('/Users/atul595525/Desktop/learning/Edureka_courses/Model_Deployement/classifier_2.pkl', 'rb') as model_pkl:
     rf = pickle.load(model_pkl)
 
 
